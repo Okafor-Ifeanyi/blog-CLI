@@ -67,28 +67,28 @@ Content: Hello Mentor / Facilitator, In the course...
 ```
 
 
-3. editPost()
-	•	Prompts the user to enter the ID of the blog post they wish to edit.
-	•	Allows the user to update the title, content, or author. Leaving an input blank retains the original value.
+3. editPost() <br>
+	•	Prompts the user to enter the ID of the blog post they wish to edit. <br>
+	•	Allows the user to update the title, content, or author. Leaving an input blank retains the original value. <br>
 	•	Updates the blog post’s date to reflect the edit.
 
-4. deletePost()
-	•	Prompts the user to enter the ID of the blog post they wish to delete.
+4. deletePost() <br>
+	•	Prompts the user to enter the ID of the blog post they wish to delete. <br>
 	•	Removes the corresponding blog post from the blogs array.
 
-5. searchPosts()
-	•	Prompts the user to enter a keyword.
-	•	Searches the title, content, and author fields of all blog posts.
+5. searchPosts() <br>
+	•	Prompts the user to enter a keyword. <br>
+	•	Searches the title, content, and author fields of all blog posts. <br>
 	•	Displays matching posts or a message if no matches are found.
 
-6. displayMenu()
+6. displayMenu() <br>
 	•	Returns the main menu text.
 
-7. delay(ms)
+7. delay(ms) <br>
 	•	Introduces a delay before each menu display to improve user experience.
 
-8. blogCLI()
-	•	The main function that runs the CLI.
+8. blogCLI() <br>
+	•	The main function that runs the CLI. <br>
 	•	Contains the main loop where the user can select options until they exit the application.
 
 
@@ -98,13 +98,13 @@ Content: Hello Mentor / Facilitator, In the course...
 
 
 ## Limitations
-1.	Non-Persistent Storage:
-	•	All blog posts are stored in memory and will be lost once the program exits.
+1.	Non-Persistent Storage: <br>
+    •	All blog posts are stored in memory and will be lost once the program exits.
 	•	To make the data persistent, you could use a database or write to a file.
-2.	Basic Input Validation:
+2.	Basic Input Validation: <br>
 	•	Assumes valid input for options and prompts.
 	•	Additional validation may be needed for production use.
 
->> Thank you for using My Blog CLI. Goodbye!
+>> Thank you for using My Blog CLI. <br>
 >> _Author: *Okafor Ifeanyi*_ <br>
 >> Check Out My [LinkedIn](www.linkedin.com/in/ifeanyi-okafor-bio)
