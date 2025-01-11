@@ -5,17 +5,17 @@
 This is a Blog Command Line Interface (CLI) application designed for managing blog posts. The script provides functionality to create, view, edit, delete, and search blog posts via a user-friendly, interactive terminal interface. It uses in-memory storage, meaning all data is lost when the application exits.
 
 ## Features
-1.	Create a Blog Post
+1.	Create a Blog Post <br>
 Allows the user to create a new blog post by providing the title, content, author, and automatically sets the creation date.
-2.	View All Blog Posts
+2.	View All Blog Posts <br>
 Displays all blog posts stored in memory, showing their ID, title, author, date, and content.
-3.	Edit a Blog Post
+3.	Edit a Blog Post <br>
 Lets the user edit an existing blog post by specifying its ID. The user can update the title, content, and author.
-4.	Delete a Blog Post
+4.	Delete a Blog Post <br>
 Deletes a blog post by its ID, removing it permanently from the in-memory storage.
-5.	Search Blog Posts
+5.	Search Blog Posts <br>
 Searches blog posts for a given keyword, matching it against the title, content, and author fields.
-6.	Exit
+6.	Exit <br>
 Ends the application gracefully.
 
 ## Prerequisites
@@ -24,36 +24,36 @@ Ends the application gracefully.
 3. Common Sense 🙂
 
 ## How to Use
-1.	Install Dependencies:
+1.	Install Dependencies:<br>
 This script uses the prompt-sync library for user input. Install it with:
 
 *cmd* => `npm install prompt-sync`
 
 
-2.	Run the Script:
-Execute the script in your terminal:
+2.	Run the Script: <br>
+Execute the script in your terminal: <br>
 
 *cmd* => `node blogCli.js`
 
 
-3.	Interactive Menu:
+3.	Interactive Menu: <br>
 You will be presented with a menu of options:
 
 ![Display Dashboard](https://github.com/user-attachments/assets/80bc9640-170e-4b7e-acf8-8054f9c46322)
 
 
-4.	Choose an Option:
+4.	Choose an Option: <br>
 Enter the number corresponding to the desired action.
 
 
 ## Functions
 
-1. createPost()
-	•	Prompts the user to input the blog’s title, content, and author.
-	•	Automatically assigns a unique ID and sets the creation date.
+1. createPost() <br>
+	•	Prompts the user to input the blog’s title, content, and author. <br>
+	•	Automatically assigns a unique ID and sets the creation date. <br>
 	•	Adds the new blog post to the blogs array.
 
-2. viewPosts()
+2. viewPosts() <br>
 	•	Displays all blog posts in the following format:
 
 
@@ -99,10 +99,10 @@ Content: Hello Mentor / Facilitator, In the course...
 
 ## Limitations
 1.	Non-Persistent Storage: <br>
-    •	All blog posts are stored in memory and will be lost once the program exits.
+    •	All blog posts are stored in memory and will be lost once the program exits.  <br>
 	•	To make the data persistent, you could use a database or write to a file.
 2.	Basic Input Validation: <br>
-	•	Assumes valid input for options and prompts.
+	•	Assumes valid input for options and prompts. <br>
 	•	Additional validation may be needed for production use.
 
 >> Thank you for using My Blog CLI. <br>
