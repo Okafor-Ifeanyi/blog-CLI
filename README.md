@@ -18,6 +18,11 @@ Searches blog posts for a given keyword, matching it against the title, content,
 6.	Exit
 Ends the application gracefully.
 
+## Prerequisites
+1. IDE - Vscode, Scrimba, Pycharm...
+2. Node installed
+3. Common Sense 🙂
+
 ## How to Use
 1.	Install Dependencies:
 This script uses the prompt-sync library for user input. Install it with:
